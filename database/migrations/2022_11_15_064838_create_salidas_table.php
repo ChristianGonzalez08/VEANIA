@@ -17,7 +17,8 @@ return new class extends Migration
             $table->id();
             $table->string('salidas');
             $table->string('fecha');
-            $table->string('movimiento');
+            $table->string('movimiento
+            ');
             $table->timestamps();
         });
     }
