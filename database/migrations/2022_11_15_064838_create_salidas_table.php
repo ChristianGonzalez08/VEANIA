@@ -15,11 +15,10 @@ return new class extends Migration
     {
         Schema::create('salidas', function (Blueprint $table) {
             $table->id();
-            $table->string('salidas');
-            $table->string('fecha');
-            $table->string('movimiento
-            ');
+            $table->string("tipo");
+            $table->string("NoParte");
             $table->timestamps();
+
         });
     }
 

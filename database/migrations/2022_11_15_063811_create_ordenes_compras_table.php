@@ -15,9 +15,7 @@ return new class extends Migration
     {
         Schema::create('ordenes_compras', function (Blueprint $table) {
             $table->id();
-            $table->string('Nombre');
-
-            $table->timestamps();
+                        $table->timestamps();
         });
     }
 
